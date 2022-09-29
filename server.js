@@ -22,6 +22,7 @@ var express = require("express");
 var app = express();
 var path = require('path');
 var blogservice = require(__dirname + '/blog-service.js');
+app.use(express.static('public')); 
 
 onHttpStart = () => 
 {
