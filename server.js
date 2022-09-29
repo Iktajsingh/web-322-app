@@ -50,7 +50,7 @@ app.get("/blog", (req, res) =>
     })
 });
 
-app.get("/data/posts", (req, res) => 
+app.get("/posts", (req, res) => 
 {
     blogservice.getAllPosts().then((data) =>
     {
@@ -60,7 +60,7 @@ app.get("/data/posts", (req, res) =>
     })
 });
 
-app.get("/data/categories", (req, res) => 
+app.get("/categories", (req, res) => 
 {
     blogservice.getCategories().then((data) =>
     {
@@ -73,10 +73,7 @@ app.get("/data/categories", (req, res) =>
 app.get('*', function(req, res){
     res.status(404).send("Page Not Found!");
   });
-  app.get('/data/categories', (req, res) => 
-{
-    res.sendFile(path.join(__dirname + "/data/categories.json"));
-});
+ 
 
 
 blogservice.initialize().then(() => 
