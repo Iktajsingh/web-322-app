@@ -70,9 +70,9 @@ app.get("./data/categories.json", (req, res) =>
     })
 });
 
-app.get('*', function(req, res){
-    res.status(404).send("Page Not Found!");
-  });
+//app.get('*', function(req, res){
+  //  res.status(404).send("Page Not Found!");
+  //});
 
 blogservice.initialize().then(() => 
 {
