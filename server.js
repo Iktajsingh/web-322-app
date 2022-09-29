@@ -60,7 +60,7 @@ app.get("/posts", (req, res) =>
     })
 });
 
-app.get("/categories", (req, res) => 
+app.get("./data/categories.json", (req, res) => 
 {
     blogservice.getCategories().then((data) =>
     {
