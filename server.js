@@ -73,6 +73,11 @@ app.get("/data/categories", (req, res) =>
 //app.get('*', function(req, res){
   //  res.status(404).send("Page Not Found!");
   //});
+  app.get('/data/categories', (req, res) => 
+{
+    res.sendFile(path.join(__dirname + "/data/categories.json"));
+});
+
 
 blogservice.initialize().then(() => 
 {
