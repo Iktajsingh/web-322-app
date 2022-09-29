@@ -8,7 +8,7 @@ other source
 *
 * Name: iktaj singh 
   Student ID: 121789218
-  Date:29/09/2022.
+  Date:29/09/2022
 
 *
 * Online (Heroku) Link: 
@@ -73,8 +73,6 @@ app.get("/categories", (req, res) =>
 app.get('*', function(req, res){
     res.status(404).send("Page Not Found!");
   });
- 
-
 
 blogservice.initialize().then(() => 
 {
