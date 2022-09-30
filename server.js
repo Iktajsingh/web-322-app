@@ -51,7 +51,7 @@ app.get("/blog", (req, res) =>
     })
 });
 
-app.get("/posts", (req, res) => 
+app.get("/data/posts.json", (req, res) => 
 {
     blogservice.getAllPosts().then((data) =>
     {
@@ -61,7 +61,7 @@ app.get("/posts", (req, res) =>
     })
 });
 
-app.get("/categories", (req, res) => 
+app.get("/data/categories.json", (req, res) => 
 {
     blogservice.getCategories().then((data) =>
     {
