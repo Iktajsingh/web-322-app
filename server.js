@@ -21,7 +21,7 @@ var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 var app = express();
 var path = require('path');
-var blogservice = require(__dirname + '/blog-service.js');
+var blogservice = require(__dirname + '/blog-service');
 app.use(express.static('public')); 
 
 onHttpStart = () => 
