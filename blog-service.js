@@ -7,7 +7,7 @@ exports.initialize = () =>
 {
     return new Promise ((resolve, reject) =>
      {
-        fs.readFile('/data/posts.json', 'utf8', (err,data) => 
+        fs.readFile('./data/posts.json', 'utf8', (err,data) => 
         {
             if (err) 
             {
@@ -19,7 +19,7 @@ exports.initialize = () =>
             }
         });
 
-        fs.readFile('/data/categories.json', 'utf8', (err,data)=> 
+        fs.readFile('./data/categories.json', 'utf8', (err,data)=> 
         {
             if (err) 
             {
