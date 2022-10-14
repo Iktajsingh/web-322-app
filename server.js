@@ -33,7 +33,7 @@ function onHttpStart(){
 cloudinary.config({
     cloud_name: 'dwslgxp7b',
     api_key: '474295251232519',
-    api_secret: 'Of9poBBYwVWlYvfiWJBtgJX5nl8',
+    api_secret: 'QsnKPtzL0UyxUabsJ4xrY1-iULs',
     secure: true
 });
 
