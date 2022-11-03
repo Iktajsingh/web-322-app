@@ -171,11 +171,11 @@ app.get('/posts', (req,res)=>{
 
 });
 
-app.get('/posts/add', (req,res)=>{
+app.get('/views/addPost.hbs', (req,res)=>{
     res.render(path.join(__dirname + "/views/addPost.hbs"))
 }); 
 
-app.post("/posts/add", upload.single("featureImage"), (req,res)=>{
+app.post("/views/addPost.hbs", upload.single("featureImage"), (req,res)=>{
 
     if(req.file){
         let streamUpload = (req) => {
