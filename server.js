@@ -171,6 +171,10 @@ app.get('/posts', (req,res)=>{
 
 });
 
+app.get('/posts/add', (req,res)=>{
+    res.render(path.join(__dirname + "/views/addPost.hbs"))
+}); 
+
 app.post("/posts/add", upload.single("featureImage"), (req,res)=>{
 
     if(req.file){
@@ -214,9 +218,7 @@ app.post("/posts/add", upload.single("featureImage"), (req,res)=>{
     }   
 });
 
-app.get('/posts/add', (req,res)=>{
-    res.render(path.join(__dirname + "/views/addPost.hbs"))
-}); 
+
 
 app.get('/post/:id', (req,res)=>{
     blogData.getPostById(req.params.id).then(data=>{
