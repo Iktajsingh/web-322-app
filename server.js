@@ -171,10 +171,6 @@ app.get('/posts', (req,res)=>{
 
 });
 
-app.get('/posts/add', function (req,res)
-{
-res.sendFile(path.join(__dirname + "/views/addPost.hbs"));
-});
 app.post("/posts/add", upload.single("featureImage"), (req,res)=>{
 
     if(req.file){
