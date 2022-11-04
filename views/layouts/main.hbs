@@ -4,16 +4,18 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <!-- Latest compiled and minified Bootstrap 3.3.7 CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"> 
       
       <link rel="stylesheet" href="https://bootswatch.com/3/slate/bootstrap.min.css" />
       
-      <title>WEB322  Iktaj singh</title>
+      
+   <!--   <link rel="stylesheet" href="/css/main.css" />  -->
+      
+      <title>WEB322 - Harsh Sethi's Blog</title>
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -23,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <span class="navbar-brand" href="#">WEB322 - Iktaj singh</span>
+          <span class="navbar-brand" href="#">WEB322 - Harsh Sethi</span>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,15 +34,15 @@
             {{#navLink "/blog"}}Blog{{/navLink}}
             {{#navLink "/about"}}About{{/navLink}}
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right"> 
             {{#navLink "/posts"}}Posts{{/navLink}}
-            {{#navLink "/categories"}}Categories{{/navLink}}
-            {{#navLink "/posts/add"}}Add Posts{{/navLink}}
+            {{#navLink "/categories"}}Categories{{/navLink}} 
+            {{#navLink "/posts/add"}}Add Posts{{/navLink}}          
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div class="container">
+    <div class="container" style="padding-top:60px">
         {{{body}}}
     </div>
 
