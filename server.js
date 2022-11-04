@@ -6,15 +6,15 @@ Policy. No part * of this assignment has been copied manually or electronically 
 other source
 * (including 3rd party web sites) or distributed to other students.
 *
-* Name: iktaj singh 
+<<<<<<< HEAD
+* Name: Iktaj singh
   Student ID: 121789218
-  Date:03/11/2022
 
-*
-* Online (cyclic) Link: https://cloudy-newt-tutu.cyclic.app/about
+* Online (cyclic) Link: https://bored-tick-wetsuit.cyclic.app/
 
 ************************************************************************
 ********/
+
 
 var express = require("express");
 var app = express();
@@ -57,10 +57,10 @@ function onHttpStart(){
 }
 
 cloudinary.config({
-    cloud_name: 'dwslgxp7b',
-    api_key: '474295251232519',
-    api_secret: 'Of9poBBYwVWlYvfiWJBtgJX5nl8',
-    secure: true
+  cloud_name: 'dwslgxp7b',
+  api_key: '474295251232519',
+  api_secret: 'Of9poBBYwVWlYvfiWJBtgJX5nl8',
+  secure: true
 });
 
 const upload = multer() // no { storage: storage }
