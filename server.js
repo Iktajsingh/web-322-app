@@ -6,10 +6,11 @@ Policy. No part * of this assignment has been copied manually or electronically 
 other source
 * (including 3rd party web sites) or distributed to other students.
 *
-<<<<<<< HEAD
 * Name: Iktaj singh
   Student ID: 121789218
+  Date: 03/11/2022
 
+*
 * Online (cyclic) Link: https://bored-tick-wetsuit.cyclic.app/
 
 ************************************************************************
