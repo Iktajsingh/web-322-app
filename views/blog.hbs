@@ -9,7 +9,7 @@
                     <img src="https://dummyimage.com/847x320/d9d9d9/545454.jpg" alt="feature Image" style="width:100%" />
                 {{/if}}
                 <br /><br />
-                {{this.data.post.body}}
+                {{#safeHTML this.data.post.body}}{{/safeHTML}}
                 <br /><br />
                 <strong>Category:</strong> {{this.data.post.category}}<br />
                 <strong>Last Updated:</strong> {{this.data.post.postDate}}
