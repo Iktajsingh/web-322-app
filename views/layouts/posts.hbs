@@ -19,7 +19,7 @@
                         <td>{{this.id}}</td>
                         <td>{{this.title}}</td>
                         <td>{{this.postDate}}</td>
-                        <td>{{this.category}}</td>
+                        <td><a href="/posts?category={{this.category}}">{{this.category}}</a></td>
                         <td>{{this.published}}</td>
                     </tr>
                     {{/each}}
@@ -33,4 +33,3 @@
     </div>
     {{/unless}}
 </div>
-
