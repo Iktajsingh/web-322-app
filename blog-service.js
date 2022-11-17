@@ -3,8 +3,8 @@ const { resolve } = require("path");
 const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
 
-var sequelize = new Sequelize('d8ns2ttn0pjbfb', 'qijpyzlzhzqxvq', 'e549fd5302ea00b0fbd1b127f6faa3cb33c2a65996f44c36f357efdf8d141cf6', {
-    host: 'ec2-52-204-157-26.compute-1.amazonaws.com',
+var sequelize = new Sequelize('oaepzsfp', 'oaepzsfp', 'rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ', {
+    host: 'abul.db.elephantsql.com',
     dialect: 'postgres',
     port: 5432,
     dialectOptions: {
