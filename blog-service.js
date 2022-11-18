@@ -1,5 +1,3 @@
-const { rejects } = require("assert");
-const { resolve } = require("path");
 const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
 
