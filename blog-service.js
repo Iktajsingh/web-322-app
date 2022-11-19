@@ -51,11 +51,11 @@ module.exports.getAllPosts = () =>
 
 }
 
-module.exports.getPostsByCategory = (category) => {
+module.exports.getPostsByCategory = (Category) => {
   return new Promise((resolve, reject) => {
     Post.findAll({
       where: {
-          category : category
+          Category : Category
       }
     })
     .then(data => {
