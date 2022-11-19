@@ -1,11 +1,11 @@
 const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
 
-var sequelize = new Sequelize("oaepzsfp",
-"oaepzsfp",
-"rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ",
+var sequelize = new Sequelize('oaepzsfp',
+'oaepzsfp',
+'rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ',
  {
-  host: "abul.db.elephantsql.com",
+  host: 'abul.db.elephantsql.com',
   dialect: 'postgres',
   port: 5432,
   dialectOptions: {
