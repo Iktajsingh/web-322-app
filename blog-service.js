@@ -2,7 +2,6 @@ const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
 
 
-
 var sequelize = new Sequelize("oaepzsfp",
 "oaepzsfp",
 "rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ",
