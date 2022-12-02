@@ -6,12 +6,12 @@ Policy. No part * of this assignment has been copied manually or electronically 
 other source
 * (including 3rd party web sites) or distributed to other students.
 *
-* Name: iktaj singh
+* Name: Harsh Sethi
   Student ID: 121889216
-  Date: 02/12/2022
+  Date: 02/1/2022
 
 *
-* Online (cyclic) Link: 
+* Online (cyclic) Link: https://shy-ruby-puppy-gown.cyclic.app/
 
 ************************************************************************
 ********/
@@ -71,7 +71,6 @@ cloudinary.config({
   api_secret: 'Of9poBBYwVWlYvfiWJBtgJX5nl8',
   secure: true
 });
-
 
 const upload = multer() // no { storage: storage }
 

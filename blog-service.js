@@ -1,5 +1,23 @@
+var sequelize = new Sequelize("oaepzsfp",
+"oaepzsfp",
+"rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ",
+ {
+  host: "abul.db.elephantsql.com",
+  dialect: 'postgres',
+  port: 5432,
+  dialectOptions: {
+      ssl: { rejectUnauthorized: false }
+  },
+  query: { raw: true }
+});
+
+
+
+
 const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
+
+
 
 var sequelize = new Sequelize("oaepzsfp",
 "oaepzsfp",
@@ -13,6 +31,8 @@ var sequelize = new Sequelize("oaepzsfp",
   },
   query: { raw: true }
 });
+
+
 
 var Post = sequelize.define('Post', {
   body: Sequelize.TEXT,
