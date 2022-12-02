@@ -25,7 +25,7 @@ const cloudinary = require('cloudinary').v2;
 const streamifier = require('streamifier');
 const exphbs = require('express-handlebars');
 const stripJs = require('strip-js');
-var blogservice = require(__dirname + '/blog-service.js');
+var blogservice = require(__dirname + '/Blog-service.js');
 var authData = require(__dirname + '/auth-Service.js');
 const clientSessions = require("client-sessions");
 
