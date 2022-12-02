@@ -6,15 +6,16 @@ Policy. No part * of this assignment has been copied manually or electronically 
 other source
 * (including 3rd party web sites) or distributed to other students.
 *
-* Name: Iktaj singh
-  Student ID: 121789218
+* Name: iktaj singh
+  Student ID: 121889216
   Date: 02/12/2022
 
 *
-* Online (cyclic) Link: https://cloudy-newt-tutu.cyclic.app/
+* Online (cyclic) Link: 
 
 ************************************************************************
 ********/
+
 
 var express = require("express");
 var app = express();
@@ -24,7 +25,7 @@ const cloudinary = require('cloudinary').v2;
 const streamifier = require('streamifier');
 const exphbs = require('express-handlebars');
 const stripJs = require('strip-js');
-var blogservice = require(__dirname + '/blog-service.js');
+var blogservice = require(__dirname + '/Blog-service.js');
 var authData = require(__dirname + '/auth-Service.js');
 const clientSessions = require("client-sessions");
 
