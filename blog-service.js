@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
 const { gte } = Sequelize.Op;
 
-
 var sequelize = new Sequelize("oaepzsfp",
 "oaepzsfp",
 "rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ",
@@ -14,7 +13,6 @@ var sequelize = new Sequelize("oaepzsfp",
   },
   query: { raw: true }
 });
-
 
 var Post = sequelize.define('Post', {
   body: Sequelize.TEXT,
