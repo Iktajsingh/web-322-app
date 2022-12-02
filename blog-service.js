@@ -211,6 +211,7 @@ module.exports.deletePostById = (id) => {
               resolve("Post deleted successfully");
       }).catch(err => {
               reject("Error!");
-      });
+     
+            });
   });
 }
