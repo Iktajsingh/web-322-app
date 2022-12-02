@@ -16,7 +16,6 @@ var sequelize = new Sequelize("oaepzsfp",
 });
 
 
-
 var Post = sequelize.define('Post', {
   body: Sequelize.TEXT,
   title: Sequelize.STRING,
