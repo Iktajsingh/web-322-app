@@ -44,3 +44,29 @@ cloudinary.config({
 
 
 
+
+
+
+cloudinary.config({
+  cloud_name: 'dwslgxp7b',
+  api_key: '474295251232519',
+  api_secret: 'Of9poBBYwVWlYvfiWJBtgJX5nl8',
+  secure: true
+});
+
+
+
+
+
+var sequelize = new Sequelize("oaepzsfp",
+"oaepzsfp",
+"rsYoIjW3vh0NRMuY_YzwTxa54i1M4orJ",
+ {
+  host: "abul.db.elephantsql.com",
+  dialect: 'postgres',
+  port: 5432,
+  dialectOptions: {
+      ssl: { rejectUnauthorized: false }
+  },
+  query: { raw: true }
+});
